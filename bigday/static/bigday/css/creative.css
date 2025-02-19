@@ -15,9 +15,10 @@ body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
+/* Line between header and body of sections */
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: #599885; 
     border-width: 3px;
 }
 
@@ -26,7 +27,7 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: #533029;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -34,7 +35,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #4e4e4e;
 }
 
 h1,
@@ -64,7 +65,7 @@ p {
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    background-color: #6093b7;
 }
 
 .text-faded {
