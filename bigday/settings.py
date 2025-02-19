@@ -28,7 +28,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 # This is a default value and must be changed!
 # Rename "localsettings.py.template" to 'localsettings.py' and edit your settings.
 # To protect your credentials from leaking to your Git server we added 'localsettings.py' to the gitignore
-SECRET_KEY = env('SECRET_KEY', default='u7!-y4k1c6b44q507nr_l+c^12o7ur++cpzyn!$65w^!gum@h%')
+SECRET_KEY = env('SECRET_KEY', default='1705y4k1c6b44q507nr_l+c^12o7ur++cpzyn!$65w^!gum@h%')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
