@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'guests.apps.GuestsConfig',
+    'fontawesomefree',
 ]
 
 MIDDLEWARE = [
