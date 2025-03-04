@@ -35,7 +35,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #4e4e4e;
+    color: #ef0505;
 }
 
 h1,
@@ -185,7 +185,7 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: rgb(28,56,81);
+    color: rgb(8, 125, 227);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -200,16 +200,16 @@ header {
 header .header-content {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
+    padding: 50px 150px;
     text-align: center;
 }
 
 header .header-content .header-content-inner h1 {
-    margin-top: 0;
+    margin-top: 400;
     margin-bottom: 0;
     text-transform: uppercase;
-    font-weight: 700;
-    color: #fff;
+    font-weight: 500;
+    color: #fefefe;
 }
 
 header .header-content .header-content-inner hr {
@@ -238,7 +238,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 15%;
+        top: 50%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -306,7 +306,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    background: rgba(244, 115, 10, 0.9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
