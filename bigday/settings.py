@@ -155,15 +155,15 @@ STATICFILES_DIRS = (
 
 # Some default values. Will be overwritten by a localsetting.py (rename 'localsettings.py.template' to 'localsettings.py')
 # This is used in a few places where the names of the couple are used
-BRIDE_AND_GROOM = 'Миша и Настя'
+BRIDE_AND_GROOM = "Misha and Nastya"
 # the date of your wedding
-WEDDING_DATE = '17 мая 2025'
+WEDDING_DATE = '17 may, 2025'
 # the location of your wedding
-WEDDING_LOCATION = 'Ресторан Атлантис, Ласковый Пляж'
+WEDDING_LOCATION = 'Restaurant Atlantis, Laskoviy Beach'
 # This is used in links in save the date / invitations
-WEDDING_WEBSITE_URL = 'https://thehappycouple.com'
+WEDDING_WEBSITE_URL = 'mishanastya.ru'
 # base address for all emails
-DEFAULT_WEDDING_EMAIL = 'happilyeverafter@example.com'
+DEFAULT_WEDDING_EMAIL = 'gostev.ifmo@gmail.com'
 WEDDING_CC_LIST = [] 
 
 # Checks, if the 'localsettings.py' is present and set some couple variables
