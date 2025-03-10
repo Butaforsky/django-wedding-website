@@ -18,6 +18,7 @@ body {
     font-family: "Century Gothic";
     font-weight: normal;
     font-style: normal;
+    font-size: 20px;
 }
 
 /* Line between header and body of sections */
@@ -32,7 +33,7 @@ hr.light {
 }
 
 a {
-    color: #e77e69; /* Цвет всех ссылок */
+    color: #761502; /* Цвет всех ссылок */
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -44,7 +45,15 @@ a:focus {
     /* цвет выделения ссылок курсором */
 }
 
-h1,
+h1{
+    /* font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; */
+    font-family: 'TT Ricordi Allegria Trl';
+    /* font-family: "Railway"; */
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+}
+
 h2,
 h3,
 h4,
@@ -59,7 +68,7 @@ h6 {
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -209,6 +218,7 @@ header {
     /* background-image: url('../images/peterhof.jpg');
     */
     background-color: rgb(200, 214, 212);
+    color: black
 }
 
 header .header-content {
@@ -216,6 +226,8 @@ header .header-content {
     width: 100%;
     padding: 50px 150px;
     text-align: center;
+    color: black
+
 }
 
 header .header-content .header-content-inner h1 {
@@ -223,7 +235,7 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 500;
-    color: #fefefe;
+    color: #000000;
 }
 
 header .header-content .header-content-inner hr {
@@ -238,8 +250,8 @@ header .header-content .header-content-inner p {
 }
 
 #second-header {
-    /* background-image: url('../images/chapmans-peak-view.jpg');
-     */
+    /* Картинку с совместными фотками сюда */
+    /* background-image: url('../images/chapmans-peak-view.jpg'); */
     background-color: rgb(122, 31, 31);
 }
 
